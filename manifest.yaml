@@ -1,0 +1,8 @@
+---
+applications:
+- name: NorthWindSRV2
+  path: .
+  memory: 128M
+  services:
+  - NorthWindXSUAA
+  - html5-destination2

@@ -1,0 +1,53 @@
+{
+    "VCAP_SERVICES": {
+        "xsuaa": [
+            {
+                "name": "NorthWindXSUAA",
+                "label": "xsuaa",
+                "tags": [
+                    "xsuaa"
+                ],
+                "credentials": {
+                    "tenantmode": "shared",
+                    "sburl": "https://internal-xsuaa.authentication.us10.hana.ondemand.com",
+                    "subaccountid": "97d028ac-30b5-48fb-99a6-4d85ed61eda3",
+                    "credential-type": "instance-secret",
+                    "clientid": "sb-na-50b87e54-ee22-45b0-881b-28bba01f4632!t115055",
+                    "xsappname": "na-50b87e54-ee22-45b0-881b-28bba01f4632!t115055",
+                    "clientsecret": "V0iTQ1KPrC0LHmNwQDZOv9MJNbo=",
+                    "url": "https://9652fdfbtrial.authentication.us10.hana.ondemand.com",
+                    "uaadomain": "authentication.us10.hana.ondemand.com",
+                    "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtLAkVXSWuvfTNGrr69QT\n8DhdNPiVIqefSDvN1R969KFHnril3O/Y1BQc+mTJ+MkA+RSsIvxyfgJ4O7bLoa4n\nZXNeeiOJ4lpawuD2KLXxdEBMBr/L6upOH898M71S+1NvDaIsS3H9GRUNSuen3VPd\nHYv1eX3gnWQDuo77aJzpyquNIkTJggLgjowQvo3vjBlC3eOehgB8btVDA4XVxjzm\nImI4xf1oqYpfIESrb9D4hDQuSFb/VyOalVzwW8nR38DWOX3qn/3eom73Py2VA/a+\nYKDHU0uO1JHtb03E1JHz1w1NSROdLn7RKewnGEWbMIj8Shjf7LjMRdsHcF56hQbx\nMQIDAQAB\n-----END PUBLIC KEY-----",
+                    "apiurl": "https://api.authentication.us10.hana.ondemand.com",
+                    "identityzone": "9652fdfbtrial",
+                    "identityzoneid": "97d028ac-30b5-48fb-99a6-4d85ed61eda3",
+                    "tenantid": "97d028ac-30b5-48fb-99a6-4d85ed61eda3",
+                    "zoneid": "97d028ac-30b5-48fb-99a6-4d85ed61eda3"
+                  }
+            }
+        ],        
+        "destination": [
+            {
+                "name": "html5-destination2",
+                "label": "destination",
+                "tags": [
+                    "destination"
+                ],
+                "credentials": {
+                    "clientid": "sb-clone345ffe83b94f4df6863e1c8de4be907b!b115055|destination-xsappname!b62",
+                    "clientsecret": "5bc89cdf-5901-478e-b1d7-cd765be42677$Y_DtTxtbmXAkSUHi7jIJYf8Lmam7NcrvQiZq0VJXsmI=",
+                    "credential-type": "binding-secret",
+                    "identityzone": "9652fdfbtrial",
+                    "instanceid": "345ffe83-b94f-4df6-863e-1c8de4be907b",
+                    "tenantid": "97d028ac-30b5-48fb-99a6-4d85ed61eda3",
+                    "tenantmode": "dedicated",
+                    "uaadomain": "authentication.us10.hana.ondemand.com",
+                    "uri": "https://destination-configuration.cfapps.us10.hana.ondemand.com",
+                    "url": "https://9652fdfbtrial.authentication.us10.hana.ondemand.com",
+                    "verificationkey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtLAkVXSWuvfTNGrr69QT\n8DhdNPiVIqefSDvN1R969KFHnril3O/Y1BQc+mTJ+MkA+RSsIvxyfgJ4O7bLoa4n\nZXNeeiOJ4lpawuD2KLXxdEBMBr/L6upOH898M71S+1NvDaIsS3H9GRUNSuen3VPd\nHYv1eX3gnWQDuo77aJzpyquNIkTJggLgjowQvo3vjBlC3eOehgB8btVDA4XVxjzm\nImI4xf1oqYpfIESrb9D4hDQuSFb/VyOalVzwW8nR38DWOX3qn/3eom73Py2VA/a+\nYKDHU0uO1JHtb03E1JHz1w1NSROdLn7RKewnGEWbMIj8Shjf7LjMRdsHcF56hQbx\nMQIDAQAB\n-----END PUBLIC KEY-----",
+                    "xsappname": "clone345ffe83b94f4df6863e1c8de4be907b!b115055|destination-xsappname!b62"
+                   }
+            }
+        ]
+    }
+}
